@@ -12,13 +12,14 @@
  
 <body>
     <br>
-    <div id="bienvenida"><h1><marquee behavior="slide" direction="left">¡ Bienvenidos !   a la Trivia de los "peores" Presidentes de México.. .. .</marquee><br>
+    <div id="bienvenida">
+      <h1>!Bienvenidos a la Trivia de los "peores" Presidentes de México¡</marquee><br>
    </h1>
    </div>
   <div id="juego">
-    <h2>Para comenzar escribe tu nombre y pulsa "enviar"
+    <h2>Para comenzar escribe tu nombre y da click "enviar"
     <input type="text" id='name'/>
-    <button onclick='saludo()'>Enviar!</button>
+    <button onclick='saludo()'>Enviar</button>
     </h2>
   </div>
   <br>
@@ -32,19 +33,29 @@
     <strong>“Ni nos beneficia, ni nos perjudica, si no todo lo contrario”</strong> Sobre la cercanía de México con los Estados Unidos y las relaciones entre ambos países.
 </p> 
 </div>
-<br>
+<div id="resultados"> 
+  <table> 
+    <thead>  
+     <tr>
+       <th>Aciertos</th>
+       <th>Pregunta</th>
+       <th>Respuesta correcta</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
 
-<div id="menús"> 
-    <div><h2><button> - Lista de Expresidentes  - </button></h2></div>
-    <div><h2><button> - Noticias Reelevantes  - </button></h2></div>
-    <div><h2><button> - Compartir -  </button> </h2></div>
-    <div><h2><button> - Contacto -  </button></h2></div>
-  </div>
+     </tr>
+   </tbody>
+  </table>   
+ </div>
+
   <br>
 
  <footer>Creador:<strong>  Jazo Ramírez </strong>  Emal: <strong> linzerking@gmail.com </strong>Tel: <strong> 5576703061</strong> <br>
 Imágenes con Copyrigth periódico La jornada,El Universal, El sol de México, Novedades, El Siglo de Torreón, Exelsior, La Prensa, El Imparcial.<br>
  Bibliografía: ¿Cuando se empezó a xoder Méjico?, Eduardo García del Río (RIUS) Ed. Grijalbo 2015 México.</footer>
+ 
  <script type="text/javascript" src="Trivia2.js"></script> 
  </body>
 </html>

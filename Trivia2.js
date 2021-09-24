@@ -14,6 +14,7 @@ function saludo() {
   alert("Instrucciones: Escribe la letra minúscula de la respuesta correcta, puedeser a,b o c y da CLICK o presiona ENTER ");      
     //Inicia la pregunta 1
     var preguntas = [
+
     {
     prompt: 'En el sexenio de qué presidente se presenta el Movimiento Estudiantil de 1968, que culminó con la sangrienta matanza en la Plaza de las 3 Culturas\n (a) Carlos Salinas de Gortari\n (b) Gustavo Díaz Ordaz\n (c) Vicente Fox Quesada\n',
     answer: "b" 
@@ -51,12 +52,17 @@ function saludo() {
     },
 
     {
-    prompt: '\n (a) Benito Juarez\n (b) Carlos Slim\n (c) Antonio Lopez de Santa Ana\n ',
-    answer: "c"
+    prompt: 'Este presidente es relacionado con grupos criminales en México y E.U. permitiendo el tráfico de armas para armar a Carteles delictivos, este operativo fue com¡nocido como rápido y furuiso \n (a) Benito Juarez\n (b) Felipe Calderón\n (c) Antonio Lopez de Santa Ana\n ',
+    answer: "b"
     },
+
+    {
+      prompt: 'Todos los expresidentes con excepcion de 3 que no se mencionan en esta trivia provienen de universidades estadounidenses ¿sabes cuales són? \n (a) Harvard, Yale y Oxford\n (b) Unam, Uam y Poli\n (c) Ninguna de las anteriores\n ',
+      answer: "c"
+      },
   ];
     //imprime la puntuación en pantalla
-    
+    // detabla de puntuación 
     var score = 0;
 
     for(var i = 0; i < preguntas.length; i++){
@@ -71,23 +77,20 @@ function saludo() {
     
     var pintarResultado = document.getElementById("caja");
     pintarResultado.innerHTML = (nombre + "Tu puntuacion es " + score + "/" + preguntas.length);
+    
+    var pintarResultadoTabla = document.getElementById("ress");
+    intarResultadoTabla.innerHTML = ( answer);
+    
    
 
 
+   //se sale del programa si no acepta
    } else {
      alert("Tal vez en otro momento...");
    }   
    
   
-
-
-
-
   
-  
-  //alerta de puntuación 
-  
-  //se sale del programa si no acepta
 
 
   

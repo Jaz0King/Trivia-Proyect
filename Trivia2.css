@@ -14,6 +14,14 @@ body {
     background-position: -10000px;
   }
  }
+   
+   #sangrita {
+    position: fixed; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:200px;
+   }
 
    #bienvenida {
    font-family: 'Abril Fatface', cursive;
@@ -24,13 +32,6 @@ body {
    box-shadow: 12px 10px 9px rgba(0, 0, 0, 0.5); 
   }
 
-   #resultados{
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0,0.7 );
-    box-shadow: 12px 10px 9px rgba(0, 0, 0, 0.5);
-   }
 
   #juego{
     text-align: center;
@@ -45,7 +46,7 @@ body {
     box-shadow: 12px 10px 9px rgba(0, 0, 0, 0.5);    
   }
 
-  #caja, #resultados{
+  #caja {
     font-family: 'Special Elite', cursive;
     text-align: center;
     font-size: 23px; 
@@ -58,11 +59,22 @@ body {
     background-color: rgba(0, 0, 0,0.7 );
     box-shadow: 12px 10px 9px rgba(0, 0, 0, 0.5); 
   }
-  #ress{
-    
-  } 
 
-  footer{
+  #resultados {
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    font-size: 23px; 
+    text-decoration-color: black;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 0;
+    width: 45em;
+    height: 45em;
+    background-color: rgba(0, 0, 0,0.7 );
+    box-shadow: 12px 10px 9px rgba(0, 0, 0, 0.5);
+   }
+
+  footer {
     text-align: center;
     font-size: 15px; 
     color: #ffffff;
